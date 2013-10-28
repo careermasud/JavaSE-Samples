@@ -13,5 +13,7 @@
   <name>cuncurrency</name>
   <modules>
     <module>executor</module>
+    <module>navigation</module>
+    <module>collections</module>
   </modules>
 </project>
