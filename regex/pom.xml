@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>JavaSE-Samples</artifactId>
+    <groupId>org.javase7</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
   <groupId>org.javase7</groupId>
-  <artifactId>JavaSE-Samples</artifactId>
+  <artifactId>regex</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>JavaSE-Samples</name>
-  <modules>
-    <module>cuncurrency</module>
-    <module>utils</module>
-    <module>lang</module>
-    <module>swing</module>
-    <module>generics</module>
-    <module>regex</module>
-  </modules>
+  <name>regex</name>
 </project>

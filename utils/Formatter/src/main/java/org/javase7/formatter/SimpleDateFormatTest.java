@@ -8,7 +8,7 @@ import oracle.jrockit.jfr.parser.ParseException;
  * Hello world!
  *
  */
-public class App {
+public class SimpleDateFormatTest {
 
     public static void main(String[] args) throws java.text.ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); //New Format
