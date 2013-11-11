@@ -13,5 +13,6 @@
     <module>swing</module>
     <module>generics</module>
     <module>regex</module>
+    <module>jdbc</module>
   </modules>
 </project>

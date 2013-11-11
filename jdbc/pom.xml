@@ -7,12 +7,18 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>org.javase7</groupId>
-  <artifactId>regex</artifactId>
+  <artifactId>jdbc</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>regex</name>
+  <name>jdbc</name>
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.23</version>
+        </dependency>
+    </dependencies>
   <modules>
-    <module>Tutorial</module>
-    <module>SO</module>
+    <module>Sample</module>
   </modules>
 </project>
