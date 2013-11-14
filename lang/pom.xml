@@ -13,5 +13,6 @@
   <name>lang</name>
   <modules>
     <module>string</module>
+    <module>math</module>
   </modules>
 </project>
