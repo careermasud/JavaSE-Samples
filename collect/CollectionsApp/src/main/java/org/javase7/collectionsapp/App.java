@@ -1,8 +1,6 @@
 package org.javase7.collectionsapp;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Date;
 
 /**
  * Hello world!
@@ -11,8 +9,12 @@ import java.util.List;
 public class App {
 
     public static void main(String[] args) {
-        List<String> cdList = new ArrayList<String>();
-        Collections.addAll(cdList, "ExampleA", "ExampleB", "ExampleC", "ExampleD");
+        Date d = new Date();
+        d.setMonth(11);
+        d.setDate(25);
+        d.setYear(1013);
         
+        System.out.println(d);
+
     }
 }

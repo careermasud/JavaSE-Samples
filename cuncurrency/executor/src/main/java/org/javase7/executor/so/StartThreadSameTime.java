@@ -27,10 +27,11 @@ public class StartThreadSameTime {
             try {
                 start.countDown();
                 start.await();
-                System.out.println("In 1");
-//                for (int i = 0; i < 10; i++) {                    
+                
+                for (int i = 0; i < 10; i++) {    
+                    System.out.println("In 1");
 //                list.add("In1");
-//                }
+                }
                 end.countDown();
                 end.await();
             } catch (InterruptedException ex) {
@@ -40,14 +41,15 @@ public class StartThreadSameTime {
     };
     Runnable r2 = new Runnable() {
         @Override
-        public void run() {
+        public void run() { 
             try {
                 start.countDown();
                 start.await();
                 System.out.println("In 2");
-//                for (int i = 0; i < 100; i++) {                    
+                for (int i = 0; i < 100; i++) {                    
 //                list.add("In2");
-//                }
+                System.out.println("In 2");
+                }
                 end.countDown();
                 end.await();
             } catch (InterruptedException ex) {
