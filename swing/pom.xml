@@ -13,5 +13,6 @@
   <name>swing</name>
   <modules>
     <module>Components</module>
+    <module>DrawMultiStar</module>
   </modules>
 </project>

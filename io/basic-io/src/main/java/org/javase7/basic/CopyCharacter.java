@@ -19,6 +19,7 @@ public class CopyCharacter {
             int c;
             while((c=reader.read())!= -1){
                 writer.write(c);
+                writer.write(10);
             }
         }
         finally{

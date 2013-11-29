@@ -14,5 +14,6 @@
   <modules>
     <module>string</module>
     <module>math</module>
+    <module>PremitiveType</module>
   </modules>
 </project>

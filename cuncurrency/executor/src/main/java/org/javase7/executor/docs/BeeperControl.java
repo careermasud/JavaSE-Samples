@@ -30,6 +30,7 @@ public class BeeperControl {
         
         scheduler.schedule(new Runnable() {
             public void run() {
+                System.out.println("Cancell is called");
                 beeperHandle.cancel(true);
             }
         }, 60*60, SECONDS);
