@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * http://stackoverflow.com/questions/20173657/how-to-discover-which-value-occurs-the-most-in-a-hashmap/20173792#20173792
  * @author Masudul Haque
  */
 public class MostFrequentValue {

@@ -13,7 +13,7 @@ import java.io.PrintWriter;
  */
 public class CopyLines {
   public static void main(String[] args) throws IOException {
-
+        
         BufferedReader inputStream = null;
         PrintWriter outputStream = null;
 

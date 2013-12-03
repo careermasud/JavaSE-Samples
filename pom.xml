@@ -16,5 +16,8 @@
     <module>jdbc</module>
     <module>collect</module>
     <module>io</module>
+    <module>annotaion</module>
+    <module>designpattern</module>
+    <module>reflection</module>
   </modules>
 </project>
