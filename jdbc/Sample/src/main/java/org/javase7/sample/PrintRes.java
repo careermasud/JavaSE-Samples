@@ -17,6 +17,7 @@ public class PrintRes {
         Statement stmt = con.createStatement();
         ResultSet rs = stmt.executeQuery("select * from book");
         ResultSetMetaData meta = rs.getMetaData();
+       
         int colNum = meta.getColumnCount();
         for (int i = 1; i <= colNum; i++) {
             System.out.print("  " + meta.getColumnName(i));
@@ -27,7 +28,9 @@ public class PrintRes {
 //        rs.last();
 //        rs.beforeFirst();
         Object arr[]=new Object[10];
+        
         while (rs.next()) {
+            
            for(int j=1;j<colNum;j++)
             arr[j-1]=rs.getObject(j);
         }

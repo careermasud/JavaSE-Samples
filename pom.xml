@@ -19,5 +19,6 @@
     <module>annotaion</module>
     <module>designpattern</module>
     <module>reflection</module>
+    <module>enums</module>
   </modules>
 </project>
