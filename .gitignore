@@ -24,5 +24,10 @@
 /reflection/GenericsConv/target/
 /designpattern/Adapter/target/
 /designpattern/Bridge/target/
+<<<<<<< HEAD
 /io/nio2/target/
 /swing/GuavaApp/target/
+=======
+/lang/system/target/
+/enums/EffectiveJava/target/
+>>>>>>> 91eb0a676a036023441d28824ac9c694cc7c96fa

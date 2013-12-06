@@ -9,7 +9,7 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
 /**
- *
+ * http://stackoverflow.com/questions/20077290/how-can-i-scan-whole-c-drive-for-playlists/
  * @author Masudul Haque
  */
 public class ScanDriveByWalk {
