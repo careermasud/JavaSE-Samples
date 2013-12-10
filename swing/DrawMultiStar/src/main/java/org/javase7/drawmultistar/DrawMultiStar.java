@@ -7,8 +7,6 @@
 package org.javase7.drawmultistar;
 
 import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.HeadlessException;
 import javax.swing.JFrame;

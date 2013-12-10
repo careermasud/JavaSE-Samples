@@ -1,4 +1,4 @@
-package org.javase7.collectionsapp;
+package org.javase7.arraysapp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

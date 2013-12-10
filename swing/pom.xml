@@ -14,6 +14,10 @@
   <modules>
     <module>Components</module>
     <module>DrawMultiStar</module>
+<<<<<<< HEAD
     <module>Tutorial</module>
+=======
+    <module>GuavaApp</module>
+>>>>>>> f9aaba6910203119a1ca70fb8d51fd9226699637
   </modules>
 </project>

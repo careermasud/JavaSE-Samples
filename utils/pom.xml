@@ -28,5 +28,6 @@
     <module>Formatter</module>
     <module>bits</module>
     <module>Script</module>
+    <module>ArraysApp</module>
   </modules>
 </project>
