@@ -14,5 +14,6 @@
   <modules>
     <module>Components</module>
     <module>DrawMultiStar</module>
+    <module>Tutorial</module>
   </modules>
 </project>

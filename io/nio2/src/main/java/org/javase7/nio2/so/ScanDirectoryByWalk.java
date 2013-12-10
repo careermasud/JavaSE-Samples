@@ -1,3 +1,4 @@
+
 package org.javase7.nio2.so;
 
 import java.io.IOException;
@@ -9,11 +10,10 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
 /**
- * http://stackoverflow.com/questions/20077290/how-can-i-scan-whole-c-drive-for-playlists/
- *
+ * http://stackoverflow.com/questions/20438328/how-to-search-for-a-subdirectory-from-a-parent-directory
  * @author Masudul Haque
  */
-public class ScanDriveByWalk {
+public class ScanDirectoryByWalk {
 
     public static void main(String[] args) throws IOException {
         Path startingDir = Paths
@@ -24,13 +24,12 @@ public class ScanDriveByWalk {
     private static class FindJavaVisitor extends SimpleFileVisitor<Path> {
 
         @Override
-        public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
-
-            if (file.toString().contains("non-existent-playlist.m3u")) {
-
-                System.out.println(file.getFileName());
+        public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
+            if(dir.getFileName().toAbsolutePath().toString().contains("Work Out")){
+            System.out.println("z1 is found at"+ dir.getFileName().toAbsolutePath());
             }
-            return FileVisitResult.CONTINUE;
+          return FileVisitResult.CONTINUE;
         }
     }
+
 }

@@ -16,5 +16,6 @@
     <module>math</module>
     <module>PremitiveType</module>
     <module>system</module>
+    <module>Puzzle</module>
   </modules>
 </project>
