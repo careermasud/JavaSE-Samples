@@ -20,5 +20,7 @@
     <module>designpattern</module>
     <module>reflection</module>
     <module>enums</module>
+    <module>basic</module>
+    <module>oop</module>
   </modules>
 </project>
