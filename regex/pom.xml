@@ -13,6 +13,6 @@
   <name>regex</name>
   <modules>
     <module>RegexTutorial</module>
-    <module>SO</module>
+    <module>RegexSO</module>
   </modules>
 </project>

@@ -1,7 +1,6 @@
 package org.javase7.executor;
 
-import java.util.concurrent.ScheduledExecutorService;
-import org.javase7.executor.docs.BeeperControl;
+import java.util.concurrent.Executors;
 
 /**
  * Hello world!
@@ -13,7 +12,8 @@ public class App
     {
         System.out.println( "Hello World!" );
 //        ScheduledExecutorService 
-        BeeperControl bc=new BeeperControl();
-        bc.beepForAnHour();
+//        BeeperControl bc=new BeeperControl();
+//        bc.beepForAnHour();
+        
     }
 }

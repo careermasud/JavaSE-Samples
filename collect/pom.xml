@@ -13,5 +13,8 @@
   <modules>
     <module>CollectionsApp</module>
     <module>MapApp</module>
+    <module>ListApp</module>
+    <module>SetApp</module>
+    <module>QueueApp</module>
   </modules>
 </project>
