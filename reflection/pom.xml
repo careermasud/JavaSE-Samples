@@ -13,5 +13,6 @@
   <name>reflection</name>
   <modules>
     <module>GenericsConv</module>
+    <module>ReflectionTutorial</module>
   </modules>
 </project>

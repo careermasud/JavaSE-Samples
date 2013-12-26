@@ -4,28 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.javase7</groupId>
-    <artifactId>collect</artifactId>
+    <artifactId>reflection</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>org.javase7</groupId>
-  <artifactId>QueueApp</artifactId>
+  <artifactId>ReflectionTutorial</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>QueueApp</name>
+  <name>ReflectionTutorial</name>
   <url>http://maven.apache.org</url>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-    <properties>
+  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
