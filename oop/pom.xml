@@ -13,5 +13,6 @@
   <name>oop</name>
   <modules>
     <module>oop-so</module>
+    <module>OOPTutorial</module>
   </modules>
 </project>
