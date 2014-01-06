@@ -13,5 +13,6 @@
   <name>generics</name>
   <modules>
     <module>SupSub</module>
+    <module>GenericsTutorial</module>
   </modules>
 </project>

@@ -1,4 +1,4 @@
-package org.javase7.effectivejava;
+package org.javase7.genericstutorial;
 
 /**
  * Hello world!
